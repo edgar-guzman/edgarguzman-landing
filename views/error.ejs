@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<!-- <h1><%= error.status %>, <%# message %></h1> -->
+<!-- <h2><%= error.status %></h2> -->
+<!-- <pre><%# error.stack %></pre> -->
+
+    <!-- Main Section -->
+    <main id='' class='errorframed'>
+        <section class='inner-errorframed text-center'>
+            <h1 class='heading-error-title text-center'><span class='fw-bold'><%= error.status %></span></h1>
+    
+            <!-- <div class='social-icon text-center m-50'> -->
+                <p class='icon py-48'>The page was <span class='text-underline'><%= message %></span>.</p>
+                <a class='icon' href='/'>Go back</a>
+            <!-- </div> -->
+        </section>
+    </main>
+
+<!-- <%- include('partials/footer') %> -->

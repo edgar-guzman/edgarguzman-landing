@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #000000;
+    /* font: 1rem 'Arial', Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* modularframed */
+a {
+    /* color: #000000; */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.heading-error-title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.fw-bold { font-weight: bold; }
+
+/* Header Arena */
+.py-48 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .inner-headerframed {} */
+
+/* Main Arena */
+/* .mainframed {}
+
+.inner-mainframed {} */
+
+/* Footer Arena */
+/* .footerframed {}
+
+.inner-footerframed {} */
